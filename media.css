@@ -1,0 +1,138 @@
+@media (max-width: 450px){
+    header{
+        width:auto;
+
+    }
+    .nav_bar{
+        display: none;
+    }
+    
+    header .img_con img{
+        height: 30px;
+        margin-left: 10px;
+    }
+    .search_con .input_bar{
+     width:80px;
+    flex-grow:none;
+    }
+    .search_con{
+        width:120px
+    }
+    .input_bar input{
+        width: 80px;
+    }
+
+    .action_con #pro2{
+        display: none;
+    
+    }
+    #pro2{
+        display: none;
+    }
+    .actions{
+    margin-right:10px;
+    display: flex;
+    justify-content: center;
+    width:40px;
+
+    }
+    .actions .actions_con{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    .offer_cat .offer_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer {
+        height: 300px;
+    }
+    .text_heading{
+        text-wrap: nowrap;
+        font-size: 13px;
+    }
+    .banner_con img{
+        margin: 0px;
+        margin-left: 30px;
+        
+    }
+     .banner_vid video{
+        margin: 0px;
+        margin-left: 30px;
+        
+    }
+    .banner_con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .offer_img{
+        margin-left: 20px;
+    }
+    
+
+}
+
+
+@media (max-width: 1140px){
+    header{
+        width:auto;
+
+    }
+    .nav_bar{
+        display: none;
+    }
+    header .img_con img{
+        height: 30px;
+    }
+    .search_con .input_bar{
+     width:100px;
+    flex-grow:none;
+    }
+    .search_con{
+        width:150px
+    }
+    .input_bar input{
+        width: 100px;
+    }
+
+    .action_con #pro2{
+        display: none;
+    
+    }
+    #pro2{
+        display: none;
+    }
+    .actions{
+    margin-right:2px;
+    display: flex;
+    justify-content: center;
+    width:50px;
+
+    }
+    .actions .actions_con{
+        font-size: 10px;
+    }
+
+    
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    .offer_cat .offer_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer {
+        height: 300px;
+    }
+    
+}
