@@ -58,11 +58,14 @@
         font-size: 13px;
     }
     .banner_con img{
-        margin: 0px;
+        margin-left:10px;
+        margin:0px;
+        
         
     }
      .banner_vid video{
         margin: 0px;
+         margin-left:10px;
         
     }
     .banner_con{
@@ -130,5 +133,6 @@
     }
     
 }
+
 
 
